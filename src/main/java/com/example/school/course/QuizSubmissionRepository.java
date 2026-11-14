@@ -1,4 +1,6 @@
 package com.example.school.course;
 
-public class QuizSubmissionRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface QuizSubmissionRepository extends JpaRepository<QuizSubmission, Long> {
 }

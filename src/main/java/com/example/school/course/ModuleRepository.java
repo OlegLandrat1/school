@@ -1,4 +1,6 @@
 package com.example.school.course;
 
-public interface ModuleRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ModuleRepository extends JpaRepository<Module, Long> {
 }
